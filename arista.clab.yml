@@ -10,4 +10,4 @@ topology:
       image: ceos:4.28.1F
 
   links:
-    - endpoints: ["arista1:eth1", "arista2:eth1"
+    - endpoints: ["arista1:eth1", "arista2:eth1"]
