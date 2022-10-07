@@ -4,16 +4,16 @@ topology:
   nodes:
     arista1:
       kind: ceos
-      image: ceos:4.28.1F
+      image: ceos:4.28.2F
     arista2:
       kind: ceos
-      image: ceos:4.28.1F
+      image: ceos:4.28.2F
     arista3:
       kind: ceos
-      image: ceos:4.28.1F
+      image: ceos:4.28.2F
     arista4:
       kind: ceos
-      image: ceos:4.28.1F
+      image: ceos:4.28.2F
 
   links:
     - endpoints: ["arista1:eth1", "arista2:eth1"]
